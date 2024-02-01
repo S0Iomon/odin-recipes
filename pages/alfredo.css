@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*, html {
+    margin: 0;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+#title{
+    background-color: black;
+    color: white;
+    font-family: 'Poor Story', system-ui;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.section{
+    background-color: rgb(225, 225, 225);
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    text-align: end;
+}
+
+.intro {
+    text-align: justify;
+}

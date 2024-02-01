@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*, html {
+    margin: 0;
+    padding: 0;
+}
+
+.recipe {
+    padding: 5px;
+}
+
+#odin-recipes {
+    background-color: black;
+    color: white;
+    font-family: 'Poor Story', system-ui;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+ul li.recipe.list{
+    list-style-type: none;
+    background-color: rgb(225, 225, 225);
+    font-family: 'Roboto Slab', serif;;
+    font-size: 30px;
+    text-align: end;
+    font-weight: bold;
+}
+
+ul a {
+    color: black;
+}
